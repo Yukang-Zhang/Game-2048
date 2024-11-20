@@ -29,7 +29,7 @@ int main()
 		{
 			do {
 				x = rand()%L, y = rand()%L;
-			}while(!a[x][y]);
+			}while(a[x][y]);
 			a[x][y] = r;
 			moved = false;
 		}
